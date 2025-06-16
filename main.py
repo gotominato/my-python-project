@@ -1,4 +1,9 @@
+# main.py
 def greet(name):
     return f"Hello, {name}!"
-print(greet("git"))
-#i wanna be able to use github
+
+def farewell(name):
+    return f"Goodbye, {name}!"
+
+print(greet("Git"))
+print(farewell("Git"))
